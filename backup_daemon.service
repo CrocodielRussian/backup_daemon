@@ -1,0 +1,9 @@
+[Unit]
+Description=backup_daemon
+
+[Service]
+ExecStart=/home/the_greatest_maestro/Documents/it/code/daemon/backup_daemon
+Restart=always
+PIDFile=/run/backup_daemon.pid
+[Install]
+WantedBy=default.target
